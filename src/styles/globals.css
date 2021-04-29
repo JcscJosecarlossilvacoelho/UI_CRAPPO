@@ -1,0 +1,36 @@
+:root {
+  --main-bg-color: #0D0D2B;
+  --secondary-bg-color: #3671E9;
+  --white:#fff;
+  --gray:#E0E0E0;
+  --padding:3.60rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+@media(max-width : 1080px){
+  html{
+    font-size:93.75%
+  }
+}
+@media(max-width : 120px){
+  html{
+    font-size:87.5%
+  }
+}
+body {
+  background:var(--main-bg-color);
+}
+body,input,textarea,button,label{
+  font:400 16px 'Rubik', sans-serif;
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration:none;
+  color:inherit
+}

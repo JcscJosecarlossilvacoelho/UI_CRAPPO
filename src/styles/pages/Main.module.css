@@ -1,0 +1,58 @@
+.container{
+     width: 100%;
+     padding: var(--padding);
+}
+
+.container section {
+    flex:1;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-content:center;
+}
+.container section img {
+    margin-top: -5rem;
+}
+.container section > div{
+    display: flex;
+    flex-direction: column;
+}
+.container section > div  h3 {
+    font-size: 5rem;
+    color: var(--white);
+    margin-top: 2rem;
+}
+.container section > div > button {
+    width:  12.5rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: var(--secondary-bg-color);
+    border: none;
+    border-radius: 32px;
+    color: var(--white);
+}
+.container section > div > label {
+    color: var(--white);
+    margin-top: 2rem;
+    font-weight: 400;
+}
+.promo {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    width: 22rem;
+    height: 2.6rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.promo span {
+    background: var(--white);
+    padding: 0.4rem;
+    color: var(--main-bg-color);
+    border-radius: 32px;
+    margin-right: 0.8rem;
+    font-size: 1rem;
+}
+.promo label {
+   color: var(--white);
+   font-size: 1rem;
+}
